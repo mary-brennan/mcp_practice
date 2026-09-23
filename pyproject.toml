@@ -1,17 +1,10 @@
 [project]
 name = "shellserver"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple MCP server exposing a terminal tool"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "fastapi>=0.141.1",
     "mcp[cli]>=2.2.0",
 ]
-
-[project.scripts]
-shellserver = "shellserver:main"
-
-[build-system]
-requires = ["uv_build>=0.12.5,<0.13.0"]
-build-backend = "uv_build"
